@@ -3,6 +3,8 @@
 
 function obtenerNombre() {
     // Escribe tu código aquí
+    const nombre = "Braulio Beltran";
+    return nombre;
 }
 
 // No modificar.
@@ -10,3 +12,6 @@ function obtenerNombre() {
 module.exports = {
     obtenerNombre
 };
+
+// Ejemplo de uso:
+console.log(obtenerNombre());
